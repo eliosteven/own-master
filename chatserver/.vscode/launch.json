@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch ChatServer",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/ChatServer.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build/Debug",
+      "environment": [],
+      "externalConsole": false,
+      "console": "integratedTerminal",
+      "logging": { "engineLogging": false }
+    }
+  ]
+}

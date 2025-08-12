@@ -1,0 +1,25 @@
+{
+  "name": "chatserver",
+  "version": "0.1.0",
+  "dependencies": [
+    "boost-beast",
+    "boost-filesystem",
+    "boost-system",
+    "boost-thread",
+    "boost-regex",
+    "boost-locale",
+    "boost-program-options",
+    "boost-log",
+    "boost-chrono",
+    "boost-date-time",
+    "boost-uuid",
+    "nlohmann-json",
+    "protobuf",
+    "grpc",
+    "redis-plus-plus",
+    {
+      "name": "mysql-connector-cpp",
+      "features": ["jdbc"]
+    }
+  ]
+}
