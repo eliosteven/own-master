@@ -1,2 +1,19 @@
 config.ini
 build/
+# C++
+*.o
+*.obj
+*.exe
+*.out
+
+# Qt
+*.pro.user
+*.autosave
+build-*/
+*.user
+*.user.*
+*.qmake.stash
+Makefile*
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
